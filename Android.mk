@@ -7,8 +7,6 @@
 
 LOCAL_PATH := $(call my-dir)
 
-TW_MAX_BRIGHTNESS := 60
-
 ifeq ($(TARGET_DEVICE),veux)
 include $(call all-subdir-makefiles,$(LOCAL_PATH))
 endif
